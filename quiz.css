@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #9e73c7;
+    --secondary-color: black;
+  }
+  
+  body {
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 0;
+  }
+  
+  .quizNavigation {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+  }
+  
+  h3 {
+    color: var(--secondary-color);
+  }
+  
+  input[type="radio"] {
+  }
+  
+  p {
+    /* padding: px; */
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: var(--primary-color);
+    /* padding-bottom: 0rem;
+      margin-bottom: 0rem; */
+  }
+  /* div p{
+      text-align: center;
+  }
+  div input{
+      text-align: left;
+      margin: 0 auto;
+  } */
+  
+  /* html{
+      padding: 0;
+      margin: 0;
+  } */
+  label {
+    /* text-align: center; */
+    /* font-size: 1rem; */
+    font-variant: small-caps;
+    /* font-style: oblique; */
+    color: var(--secondary-color);
+    font-weight: bolder;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    border-color: var(--primary-color);
+    /* text-decoration-color: var(--secondarry-color); */
+    color: var(--secondarry-color);
+    margin-bottom: 1rem;
+    width: 150px;
+    border-radius: 1rem;
+  }
+  #outPutBox {
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .list {
+    list-style: none;
+    text-align: right;
+    padding-inline-start: 0rem;
+  }
+  
+  .item-list {
+    display: inline;
+  }
+  
+  .list-link {
+    color: var(--secondary-color);
+    padding: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .question-containers {
+    background-color: rgba(128, 128, 128, 0.158);
+  }
+  
+  main {
+    padding: 0 1rem;
+  }
